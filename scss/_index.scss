@@ -1,0 +1,56 @@
+
+header{
+    .tituloSub{
+            margin-left: 25px;
+            font-size: 30px;
+    }
+
+}
+
+
+.articleIndex{
+    margin-bottom: 54px;
+    .imagenKhea{
+            width: 600px;
+            margin: 25px;
+    }
+}
+    .ParrafoIndex{
+        text-indent: 20px;
+        margin-bottom: 6px;
+        padding-left: 55px;
+        padding-right: 55px;
+        font-size: 20px;
+        word-spacing: 7px;
+        line-height: 35px;
+    }
+
+@media only screen and ( max-width: 600px){
+    body{
+    display: grid;
+    grid-column: repeat(4, 1fr);
+    margin: auto;
+    width: 90%;
+    overflow-x: hidden; 
+    }
+    .articleIndex{
+        margin-bottom: 20px;
+        .imagenKhea{
+            width: 150px;
+            float: none;
+        }
+        .ParrafoIndex{
+            font-size: 5px !important;
+            margin-bottom: 1px;
+            line-height: 10px !important;  
+        }
+    }
+    
+.tituloHome{
+    font-size: 20px;
+     margin-left: 30px !important;}
+    .subtituloHome{
+        font-size: 10px;
+    }
+}
+

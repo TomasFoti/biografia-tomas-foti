@@ -1,0 +1,389 @@
+header .tituloSub {
+  margin-left: 25px;
+  font-size: 30px;
+}
+
+.articleIndex {
+  margin-bottom: 54px;
+}
+
+.articleIndex .imagenKhea {
+  width: 600px;
+  margin: 25px;
+}
+
+.ParrafoIndex {
+  text-indent: 20px;
+  margin-bottom: 6px;
+  padding-left: 55px;
+  padding-right: 55px;
+  font-size: 20px;
+  word-spacing: 7px;
+  line-height: 35px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    display: -ms-grid;
+    display: grid;
+    grid-column: repeat(4, 1fr);
+    margin: auto;
+    width: 90%;
+    overflow-x: hidden;
+  }
+  .articleIndex {
+    margin-bottom: 20px;
+  }
+  .articleIndex .imagenKhea {
+    width: 150px;
+    float: none;
+  }
+  .articleIndex .ParrafoIndex {
+    font-size: 5px !important;
+    margin-bottom: 1px;
+    line-height: 10px !important;
+  }
+  .tituloHome {
+    font-size: 20px;
+    margin-left: 30px !important;
+  }
+  .subtituloHome {
+    font-size: 10px;
+  }
+}
+
+/*Galery*/
+.fotos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.fotos .kheaSolo {
+  height: 228px;
+  width: 350px;
+  padding: 1px;
+  border-radius: 2%;
+  margin: 2px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.fotos .kheaSolo:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.audioVisual {
+  margin-left: 100px;
+  margin-right: 80px;
+}
+
+.audioVisual .videosCanciones {
+  width: 40%;
+  height: 210px;
+  margin-bottom: 60px;
+  margin-left: 35px;
+  margin-right: 20px;
+}
+
+header .h1Galery {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
+  padding-left: 150px;
+}
+
+header .h2Galery {
+  font-size: 30px;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  display: block;
+  padding-left: 150px;
+}
+
+@media screen and (max-width: 600px) {
+  .h1Galery {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    padding-left: 150px;
+  }
+  .h2Galery {
+    font-size: 30px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    display: block;
+    padding-left: 50px;
+  }
+}
+
+/*Galery*/
+/*Entradas*/
+.entradasH1 {
+  font-size: 45px;
+  margin-bottom: 35px;
+  padding-left: 100px;
+  margin-top: 20px;
+}
+
+.gridForms {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  list-style: none;
+  margin-left: 240px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 240px;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  margin-bottom: 60px;
+  gap: 30px;
+}
+
+.gridForms .tituloForm {
+  font-size: 25px;
+}
+
+.ticket {
+  width: 80.5;
+  height: 33px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  padding: 3px 10px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-size: 18px;
+}
+
+.ticket:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+/*Songs*/
+.tituloCanciones {
+  padding-left: 50px !important;
+  padding-top: 15px;
+}
+
+.articleSongs {
+  margin-bottom: 25px;
+}
+
+.articleSongs .cancionesP {
+  word-spacing: 10px;
+  line-height: 40px;
+  font-size: 20px;
+  padding-left: 50px;
+}
+
+.articleCanciones {
+  margin-bottom: 60px;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+.articleCanciones .cancionesS {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.articleCanciones .spotify {
+  height: 500px;
+  width: 31%;
+}
+
+.articleCanciones .spotify1 {
+  margin-right: 30px;
+}
+
+.articleCanciones .spotify2 {
+  height: 500px;
+}
+
+.articleCanciones .spotify3 {
+  margin-left: 25px;
+}
+
+@media only screen and (max-width: 930px) {
+  .articleCanciones {
+    padding-left: 0;
+    margin-left: 30px;
+  }
+  .articleCanciones .spotify {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 20px;
+  }
+  .articleCanciones .spotify3 {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .articleCanciones {
+    padding-left: 0;
+    margin-left: 25px;
+  }
+  .articleCanciones .spotify {
+    width: 100%;
+    height: 400px;
+    padding-top: 20px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .articleCanciones .spotify3 {
+    margin-left: 0;
+  }
+  .articleSongs .cancionesP {
+    word-spacing: 5px;
+    line-height: 30px;
+    font-size: 17px;
+    padding-left: 25px;
+  }
+  .tituloCanciones {
+    padding-left: 25px !important;
+    padding-top: 15px;
+  }
+}
+
+/*songs*/
+/*contact*/
+.headerContact {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 50px !important;
+}
+
+.enviar:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+/*Contact*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+header .tituloIndex {
+  color: green;
+}
+
+body {
+  background-color: black;
+  font-family: 'Raleway', sans-serif !important;
+  color: white;
+  text-transform: capitalize;
+  margin-left: 100px;
+  margin-right: 100px;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+section {
+  border-bottom: 2px solid white;
+}
+
+/*Menu*/
+.logo {
+  height: 100%;
+  width: 150px;
+  display: inline-block;
+}
+
+/*Menu*/
+/*Footer*/
+.border1 {
+  border: 1px solid white;
+  width: 40px;
+  margin: 5px;
+}
+
+/*Footer*/
+/*boostrap*/
+.background {
+  background-color: black;
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+.achicar {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.fondoBoxmodel {
+  background-color: black;
+  color: white;
+}
+
+.aAnimation {
+  text-decoration: none;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(currentColor), to(currentColor));
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  -webkit-transition: background-size .3s;
+  transition: background-size .3s;
+}
+
+.aAnimation:hover, a:focus {
+  background-size: 100% 2px;
+}
+
+/*bootstrap*/
+/*# sourceMappingURL=Prueba.css.map */
