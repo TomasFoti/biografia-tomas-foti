@@ -4,6 +4,27 @@
 @import "songs";
 @import "contacto";
 
+/*Mapas*/
+
+$headings: (
+    h1: 40px,
+    h2: 30px,
+    h3:25px,
+    h4:20px,
+);
+
+$h1: map-get ($headings, h1);
+
+/*Bucles Each*/
+
+$lista1: red, blue, green, yellow, black, white;
+
+@each $color in $lista1 {
+    .#{color}{
+    background-color: $color;
+    }
+}
+
 
 *{
     margin: 0;
