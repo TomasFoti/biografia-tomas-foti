@@ -1,0 +1,29 @@
+/*contact*/
+
+
+.headerContact{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px !important;
+    font-size: $h1;
+}
+.enviar{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    .enviar:hover{
+        background-color: white;
+        color: black !important;
+        border: 1px solid black;
+        transform: scale(1.1) ;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .headerContact{
+      margin-left: 0px;
+      margin-bottom: 0px;
+      font-size: 40px;
+    }
+}
+
+/*Contact*/

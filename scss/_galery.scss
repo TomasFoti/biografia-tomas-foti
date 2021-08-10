@@ -1,0 +1,119 @@
+/*Galery*/
+
+.fotos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    .kheaSolo{
+        height: 228px;
+        width: 350px;
+        padding: 1px;
+        border-radius: 2%;
+        margin: 2px;
+        transition: 1s ;
+        &:hover{
+            transform: scale(1.05);
+        }
+    }
+}
+
+.audioVisual{
+    margin-left:100px;
+    margin-right:80px ;
+    .videosCanciones{
+        width: 45%;
+        height: 310px;
+        margin-bottom: 60px;
+        margin-left: 20px;
+        margin-right:20px ;
+    }
+}
+
+header{
+    .h1Galery{
+    font-size: $h1;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    display: block;
+    padding-left: 150px;
+    }
+    .h2Galery{
+        font-size: 30px;
+        margin-top: 45px;
+        margin-bottom: 45px;
+        display: block;
+        padding-left: 150px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .h1Galery{
+        font-size: 40px !important;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: block;
+        padding-left: 50px !important;
+        }
+    .h2Galery{
+        font-size: 40px;
+        margin-top: 45px;
+        margin-bottom: 45px;
+        display: block;
+         padding-left: 50px;
+    }
+    .kheaSolo{
+        margin: 0 2px 5px 10px !important;
+        padding:0 1px 0 1px ;
+        height: 358px !important;
+        width: 530px !important;
+        transition: 1s;
+    }
+    .audioVisual {
+        margin-left: 20px;
+        margin-right: 20px; 
+    }
+    .videosCanciones {
+        width: 642px !important;
+         height: 350px !important;
+        margin-bottom: 60px;
+         margin-left: 20px;
+        margin-right: 20px; }
+    }
+
+    @media screen and (max-width: 1020px) {
+        .h1Galery{
+            font-size: 40px !important;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            display: block;
+            padding-left: 50px;
+            }
+        .h2Galery{
+            font-size: 40px;
+            margin-top: 45px;
+            margin-bottom: 45px;
+            display: block;
+            padding-left: 50px;
+        }
+        .kheaSolo{
+          margin: 0 2px 5px 10px !important;
+          padding:0 1px 0 1px ;
+          height: 458px !important;
+          width: 630px !important;
+          transition: 1s;
+        }
+        .audioVisual {
+          margin-left: 50px 
+        }
+        .videosCanciones {
+            width: 652px !important;
+            height: 360px !important;
+            margin-bottom: 60px;
+            margin-left: 20px;
+            margin-right: 20px; 
+        }
+    }
+
+
+/*Galery*/
