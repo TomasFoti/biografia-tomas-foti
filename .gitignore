@@ -1,0 +1,5 @@
+/node-modules/
+/imagenes/
+/videos/
+package.json
+package-lock.json
